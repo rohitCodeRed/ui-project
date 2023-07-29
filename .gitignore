@@ -1,0 +1,8 @@
+#Exclude .vscode/
+.vscode
+
+#Exclude ui.test.css
+ui.test.css
+
+#Exclude ui.test.html
+ui.test.html
