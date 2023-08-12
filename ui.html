@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ui.css">
+    <script src="ui.js"></script>
 </head>
 <body>
      <div class="line">
-        <div class="circle"></div>
+        <div class="circle" id="circle"></div>
     </div>
+    <script>
+      const element = document.getElementById("circle");
+
+      setInterval(callColorMethod,1000);
+
+      function callColorMethod(){
+        changeColor(element);
+      }
+      
+      </script>
 </body>
 </html>
